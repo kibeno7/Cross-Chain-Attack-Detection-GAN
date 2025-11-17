@@ -102,7 +102,7 @@ Values are normalized into the range [0, 1] using:
 - **Image Dimensions:** `128 × 128 × 1` (grayscale)
 
 ## Model Architecture
-<img src="Diagrams/Flowchart2.png" alt="Sequence Diagram" width="1000" height="800">
+<img src="Diagrams/Flowchart2.jpeg" alt="Flowchart Diagram" width="1000" height="800">
 The CCAD-GAN consists of three interconnected neural networks trained in two stages:
 
 ### Encoder
@@ -378,13 +378,13 @@ ccad-gan/
 │   ├── ccad_gan_final.pth           # Trained model weights
 │   └── ccad_pretrained_autoencoder.pth
 ├── Diagrams/
-│   ├── Flowchart.png
-│   ├── Flowchart2.png
+│   ├── Flowchart.jpeg
+│   ├── Flowchart2.jpeg
 │   ├── encoder.png
 │   ├── generator.jpg
 │   ├── discriminator.png
 │   ├── sequence_diagram.png
-│   ├── Deployement_Diagram.png
+│   ├── Deployement_Diagram.jpeg
 │   └── System_Architecture.png
 ├── Results/
 │   ├── ccad_gan_training_losses.png
